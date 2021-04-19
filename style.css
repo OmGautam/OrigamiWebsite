@@ -1,0 +1,45 @@
+h1{
+    color: crimson;
+    display: flex;
+    justify-content: center;
+}
+p{
+    color: darkcyan;
+}
+.images {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: cyan;
+    padding: 30px;
+    border: 3px solid;
+    border-color: #FF0000;
+}
+.text {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: aquamarine;
+}
+.link {
+    display: flex;
+    justify-content: space-between;
+    background-color: gold;
+}
+.facts {
+    display: flex;
+    justify-content: center;
+    background-color: greenyellow;
+}
+.list {
+    display: flex;
+    justify-content: center;
+    background-color: greenyellow;
+}
+a:hover{
+    opacity: 0.5;
+}
+a:link{
+    color: greenyellow;
+}
+a:visited{
+    color: indianred;
+}
